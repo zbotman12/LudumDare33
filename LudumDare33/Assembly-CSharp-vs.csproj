@@ -53,6 +53,8 @@
      <Compile Include="Assets\Scripts\ItemDatabase.cs" />
      <Compile Include="Assets\Scripts\ToolTipController.cs" />
      <Compile Include="Assets\Scripts\UiScriptTools.cs" />
+     <Compile Include="Assets\TalkScript.cs" />
+     <Compile Include="Assets\lightflicker.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
