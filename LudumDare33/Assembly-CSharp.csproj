@@ -46,8 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraFollowScript.cs" />
-     <Compile Include="Assets\CharacterNavMesh.cs" />
+     <Compile Include="Assets\Scripts\CameraFollowScript.cs" />
+     <Compile Include="Assets\Scripts\CharacterNavMesh.cs" />
+     <Compile Include="Assets\Scripts\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Scripts\ItemDatabase.cs" />
+     <Compile Include="Assets\Scripts\ToolTipController.cs" />
+     <Compile Include="Assets\Scripts\UiScriptTools.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
