@@ -6,6 +6,7 @@ public class CharacterNavMesh : MonoBehaviour {
 	NavMeshAgent agent;
 	public GameObject ToolText;
 	private bool isActive = false;
+	public int status = 0;
 
 	void Start () {
 		agent = GetComponent<NavMeshAgent> ();
