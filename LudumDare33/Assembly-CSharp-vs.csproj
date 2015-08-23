@@ -46,17 +46,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DaySystem.cs" />
+     <Compile Include="Assets\Larry.cs" />
      <Compile Include="Assets\Scripts\CameraFollowScript.cs" />
      <Compile Include="Assets\Scripts\CharacterNavMesh.cs" />
      <Compile Include="Assets\Scripts\InteractionManager.cs" />
+     <Compile Include="Assets\Scripts\InteractionWrapper.cs" />
      <Compile Include="Assets\Scripts\Inventory.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Scripts\ItemDatabase.cs" />
      <Compile Include="Assets\Scripts\TalkScript.cs" />
      <Compile Include="Assets\Scripts\ToolTipController.cs" />
      <Compile Include="Assets\Scripts\UiScriptTools.cs" />
-     <Compile Include="Assets\Scripts\ZoeyRoom.cs" />
      <Compile Include="Assets\Scripts\lightflicker.cs" />
+     <Compile Include="Assets\TextController.cs" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
