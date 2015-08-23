@@ -39,9 +39,9 @@ public class CharacterNavMesh : MonoBehaviour {
 				}
 				if(text != null){
 				text.transform.localPosition = hit.point;//new Vector3(hit.point.x,10,hit.point.z);
-				}
 				text.GetComponent<TextMesh>().text = hit.transform.gameObject.name;
 				text.GetComponent<TextMesh>().fontSize = 60;
+			}
 		
 		}
 	}
